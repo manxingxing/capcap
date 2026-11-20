@@ -3264,13 +3264,13 @@ class ToolbarView: NSView {
 
     /// Button run geometry. `preferredSize` derives the capsule size from
     /// these so the dark background always wraps the buttons exactly.
-    static let buttonSize: CGFloat = 40
-    static let symbolPointSize: CGFloat = 18
-    static let buttonSpacing: CGFloat = 6
+    static let buttonSize: CGFloat = 32
+    static let symbolPointSize: CGFloat = 14
+    static let buttonSpacing: CGFloat = 4
     /// Inset along the main axis at both ends of the run.
-    static let endPadding: CGFloat = 15
-    /// Inset on the cross axis — keeps a 52pt-thick capsule around 40pt buttons.
-    static let crossPadding: CGFloat = 6
+    static let endPadding: CGFloat = 12
+    /// Inset on the cross axis — keeps a 40pt-thick capsule around 32pt buttons.
+    static let crossPadding: CGFloat = 4
 
     let orientation: Orientation
     private let items: [ToolbarItemID]
